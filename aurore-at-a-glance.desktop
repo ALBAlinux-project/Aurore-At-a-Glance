@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Aurore At a Glance
+Comment=Pixel-inspired At a Glance widget for Aurore
+Exec=/usr/bin/aurore-at-a-glance
+Icon=preferences-system-time
+Terminal=false
+Categories=Utility;
+StartupNotify=false
