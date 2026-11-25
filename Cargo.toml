@@ -1,0 +1,16 @@
+[package]
+name = "aurore-at-a-glance"
+version = "0.1.0"
+edition = "2021"
+description = "Pixel-inspired At a Glance desktop widget for Aurore (Norrsken Linux A m2 T)"
+license = "GPL-3.0-or-later"
+
+[dependencies]
+iced = { version = "0.13", features = ["tokio"] }
+chrono = { version = "0.4", features = ["clock"] }
+
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1
+strip = true
